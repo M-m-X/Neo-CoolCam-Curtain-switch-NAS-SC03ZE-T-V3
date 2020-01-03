@@ -63,6 +63,25 @@
             "unite": "%"
         },
         {
+            "name": "Etat2", 
+            "type": "info", 
+            "isVisible": 0, 
+            "isHistorized": 0, 
+            "configuration": {
+                "class": 38, 
+                "value": "", 
+                "index": 0, 
+                "instance": 1,
+                "minValue": 0, 
+                "maxValue": 255
+            }, 
+            "subtype": "numeric", 
+            "display": {
+                "generic_type": "FLAP_STATE"
+            },
+            "unite": ""
+        },
+        {
             "name": "Positionnement", 
             "type": "action", 
             "isVisible": 1, 
