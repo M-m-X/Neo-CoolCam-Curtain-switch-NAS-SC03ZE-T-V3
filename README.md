@@ -2,6 +2,7 @@
 
 Fichiers de configuration du NAS-SC03ZE-T-V3 pour openZwave
 
+
 “600.512.4140_nas-sc03ze-t-v3.jpg” et “600.512.4140_nas-sc03ze-t-v3.json” à placer dans le dossier:
 plugins/openzwave/core/config/devices/neocoolcam_600/
 
