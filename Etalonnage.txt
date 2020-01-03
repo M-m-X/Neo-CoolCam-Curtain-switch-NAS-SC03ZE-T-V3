@@ -1,0 +1,18 @@
+Cet appareil doit être calibré après l'installation. La méthode d'étalonnage est répertoriée ci-dessous:
+
+1-Touchez et maintenez le bouton "haut" pour placer le volet à l'état complètement ouvert.
+
+2-Touchez le bouton central pendant 5 secondes jusqu'à ce que les deux LED rouges s'allument et que la LED bleue s'éteigne, puis relâchez le bouton. La LED bleue s'allume à nouveau, l'appareil est entré en mode d'étalonnage.
+Si l'appareil a été étalonné, cette opération réinitialise les valeurs.
+
+3-Touchez et maintenez le bouton "bas" jusqu'à ce que le volet soit complètement fermé, puis relachez le bouton. La led rouge correspondante s'éteint.
+
+4-Touchez et maintenez le bouton "haut" jusqu'à ce que le volet soit complètement ouvert, puis relâchez le bouton. La led rouge correspondante s'éteint.
+
+5-L'étalonnage est terminé, les deux led rouges clignotent 3 fois à 1 seconde d'intervalle.
+
+Si l'appareil a été calibré, vous pouvez appuyer brièvement sur le bouton pour contrôler le volet, il n'est pas nécessaire de mainteneir le bouton pendant l'ouverture/fermeture de celui-ci.
+
+Si l'interrupteur du volet n'est pas calibré, la LED bleue clignote une fois avec un intervalle de 3 secondes.
+
+Le délai d'attente pour la procédure d'étalonnage est de 600 secondes. Si l'étalonnage n'est pas terminé pendant cette période, l'appareil reviendra à l'état non étalonné.

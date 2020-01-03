@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Product xmlns='https://github.com/OpenZWave/open-zwave' Revision="3">
+  <!--
+  Shenzhen NEO Electronics (Neo-CoolCam) Curtain Switch nas-sc03ze-t-v3 0x102c/
+  -->
+  <!-- Configuration Parameters -->
+  <CommandClass id="112">
+      <Value type="list" genre="config" instance="1" index="1" label="Up/Down Button Swap Enable" value="1" size="1">
+      <Help>
+        This parameter defines if the action for Up/Down touch button need to exchange.
+		This is very useful setting after the device is installation.
+      </Help>
+      <Item label="Disable" value="0"/>
+      <Item label="Enable" value="1"/>
+    </Value>
+	<Value type="list" genre="config" instance="1" index="2" label="Motor Rotation Direction Swap Enable" value="0" size="1">
+      <Help>
+        This parameter defines if the direction for left/right motor rotation need to exchange.
+		This is very useful after the device is installation.
+      </Help>
+      <Item label="Disable" value="0"/>
+      <Item label="Enable" value="1"/>
+    </Value>
+	<Value type="list" genre="config" instance="1" index="3" label="Backlight Enable" value="1" size="1">
+      <Help>
+        This parameter defines the backlight state for touch button. The backlight led is on when curtain switch power on if this parameter is set to '1', 
+		otherwise the baclight led is off.
+      </Help>
+      <Item label="Disable" value="0"/>
+      <Item label="Enable" value="1"/>
+    </Value>
+	<Value type="list" genre="config" instance="1" index="4" label="Curtain Moving Indicate Enable" value="1" size="1">
+      <Help>
+        This parameter defines the led enable status when curtain is moving.
+		'1' - Enable led indicated. When curtain is moving to opened direction, the led in up button will be lighted on '0'.
+		'0' - Disable led indicated.
+      </Help>
+      <Item label="Disable" value="0"/>
+      <Item label="Enable" value="1"/>
+    </Value>
+	<Value type="list" genre="config" instance="1" index="5" label="Button switch Function Disable" value="1" size="1">
+      <Help>
+        Setting this configuration as '0' will be disable to control the curtain motor by pressed any buttons.
+      </Help>
+      <Item label="Disable" value="0"/>
+      <Item label="Enable" value="1"/>
+    </Value>
+  </CommandClass>
+  <!-- Association Groups -->
+  <CommandClass id="133">
+    <Associations num_groups="3">
+      <Group index="1" max_associations="5" label="Lifeline"/>
+    </Associations>
+  </CommandClass>
+</Product>
